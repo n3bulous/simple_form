@@ -16,6 +16,7 @@ module SimpleForm
     autoload :PriorityInput,                'simple_form/inputs/priority_input'
     autoload :RangeInput,                   'simple_form/inputs/range_input'
     autoload :StringInput,                  'simple_form/inputs/string_input'
+    autoload :Html5StringInput,             'simple_form/inputs/html5_string_input'
     autoload :TextInput,                    'simple_form/inputs/text_input'
   end
 end

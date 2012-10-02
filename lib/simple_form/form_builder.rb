@@ -16,6 +16,7 @@ module SimpleForm
     map_type :text,                                :to => SimpleForm::Inputs::TextInput
     map_type :file,                                :to => SimpleForm::Inputs::FileInput
     map_type :string, :email, :search, :tel, :url, :to => SimpleForm::Inputs::StringInput
+    map_type :html5_date, :html5_datetime, :html5_time, :to => SimpleForm::Inputs::Html5StringInput
     map_type :password,                            :to => SimpleForm::Inputs::PasswordInput
     map_type :integer, :decimal, :float,           :to => SimpleForm::Inputs::NumericInput
     map_type :range,                               :to => SimpleForm::Inputs::RangeInput
